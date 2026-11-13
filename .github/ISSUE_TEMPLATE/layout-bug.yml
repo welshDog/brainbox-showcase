@@ -1,0 +1,18 @@
+name: Layout or display bug
+description: The page looks broken or behaves oddly.
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What do you see, and what did you expect?
+    validations:
+      required: true
+  - type: input
+    id: setup
+    attributes:
+      label: Device, browser and screen size
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to see it

@@ -1,0 +1,21 @@
+name: Accessibility or readability problem
+description: Something on the page is hard to see, read, reach or use.
+labels: ["accessibility"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What is hard to use?
+      description: Say what you tried and what got in the way.
+    validations:
+      required: true
+  - type: input
+    id: setup
+    attributes:
+      label: Device, browser and any assistive tools
+      description: For example "phone, Safari, VoiceOver" or "laptop, Firefox, high contrast".
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would help?
+      description: Optional. A suggestion is welcome but not needed.

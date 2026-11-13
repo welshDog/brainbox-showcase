@@ -1,0 +1,23 @@
+name: Wording or factual correction
+description: A typo, an unclear sentence, or something on the page that is not true.
+labels: ["content"]
+body:
+  - type: textarea
+    id: where
+    attributes:
+      label: Which text, and what is wrong?
+      description: Quote the sentence and say what should change.
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: Link or evidence
+      description: Optional. Do not paste anything private.
+  - type: checkboxes
+    id: safe
+    attributes:
+      label: Privacy
+      options:
+        - label: I have not included addresses, tokens, hostnames or text copied from a real system.
+          required: true
